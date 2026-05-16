@@ -36,10 +36,6 @@ python train.py
 기본적으로 `./soondol.jpg`를 타겟 이미지로 사용한다. 다른 이미지를 쓰려면
 `train.py`의 `IMAGE_PATH`를 바꾼다.
 
-> **참고:** 현재 저장소에는 `soondol.jpg`가 `../2dgs-accelerated/soondol.jpg`에만
-> 있다. 그대로 돌리려면 `IMAGE_PATH`를 `"../2dgs-accelerated/soondol.jpg"`로 바꾸거나
-> 이미지를 이 디렉터리로 복사한다.
-
 ## 주요 하이퍼파라미터 (`train.py`)
 
 | 이름 | 기본값 | 설명 |
